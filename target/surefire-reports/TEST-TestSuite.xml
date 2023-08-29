@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.751" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ASUS\Desktop\RestAssuredFrameDevelopment\RestAssuredAutomationFramework\target\test-classes;C:\Users\ASUS\Desktop\RestAssuredFrameDevelopment\RestAssuredAutomationFramework\target\classes;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ASUS\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\ASUS\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\ASUS\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\ASUS\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ASUS\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ASUS\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ASUS\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ASUS\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire15463901020818654926\surefirebooter4151745377677228090.jar C:\Users\ASUS\AppData\Local\Temp\surefire15463901020818654926 2023-08-29T18-02-31_555-jvmRun1 surefire16068941289591436685tmp surefire_09001390634313600853tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ASUS\Desktop\RestAssuredFrameDevelopment\RestAssuredAutomationFramework\target\test-classes;C:\Users\ASUS\Desktop\RestAssuredFrameDevelopment\RestAssuredAutomationFramework\target\classes;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ASUS\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\ASUS\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\ASUS\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\ASUS\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ASUS\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ASUS\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ASUS\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ASUS\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ASUS\Desktop\RestAssuredFrameDevelopment\RestAssuredAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire15463901020818654926\surefirebooter4151745377677228090.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ASUS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\ASUS\Desktop\RestAssuredFrameDevelopment\RestAssuredAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\apache-maven-3.9.4\bin;C:\apache-maven-3.9.4\bin;C:\apache-maven-3.9.4\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="api.testcases.UserTest" time="2.685">
+    <system-out><![CDATA[On Start method invoked....
+Name of test method started:testCreateUser
+HTTP/1.1 200 OK
+Date: Tue, 29 Aug 2023 12:32:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1871612052"
+}
+[INFO ] 2023-08-29 18:02:36.009 [main] RestAssuredAutomationFramework_test - Create User executed.
+Name of test method sucessfully executed:testCreateUser
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetUserData" classname="api.testcases.UserTest" time="1.214">
+    <system-out><![CDATA[Name of test method started:testGetUserData
+Read User Data.
+HTTP/1.1 200 OK
+Date: Tue, 29 Aug 2023 12:32:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1871612052,
+    "username": "truman.purdy",
+    "firstName": "Glory",
+    "lastName": "Mann",
+    "email": "jazmin.lubowitz@example.com",
+    "password": "t8htl",
+    "phone": "988-816-1748",
+    "userStatus": 0
+}
+[INFO ] 2023-08-29 18:02:37.242 [main] RestAssuredAutomationFramework_test - Get User Data executed.
+Name of test method sucessfully executed:testGetUserData
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.testcases.UserTest" time="2.273">
+    <system-out><![CDATA[Name of test method started:testUpdateUser
+HTTP/1.1 200 OK
+Date: Tue, 29 Aug 2023 12:32:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1871612052"
+}
+After Update User Data.
+HTTP/1.1 200 OK
+Date: Tue, 29 Aug 2023 12:32:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1871612052,
+    "username": "truman.purdy",
+    "firstName": "Andre",
+    "lastName": "Mann",
+    "email": "jazmin.lubowitz@example.com",
+    "password": "t8htl",
+    "phone": "988-816-1748",
+    "userStatus": 0
+}
+[INFO ] 2023-08-29 18:02:39.516 [main] RestAssuredAutomationFramework_test - Update User executed.
+Name of test method sucessfully executed:testUpdateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.testcases.UserTest" time="1.156">
+    <system-out><![CDATA[Name of test method started:testDeleteUser
+Delete User Data.
+HTTP/1.1 200 OK
+Date: Tue, 29 Aug 2023 12:32:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "truman.purdy"
+}
+[INFO ] 2023-08-29 18:02:40.672 [main] RestAssuredAutomationFramework_test - Delete User executed.
+Name of test method sucessfully executed:testDeleteUser
+]]></system-out>
+  </testcase>
+</testsuite>
